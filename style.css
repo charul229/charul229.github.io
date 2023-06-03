@@ -1,0 +1,35 @@
+h2 {
+  text-align: center;
+  background: rgb(226, 225, 225);
+}
+
+p {
+  font-size: 20px;
+}
+
+h5 {
+  color: rgb(218, 216, 216);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.cart {
+  text-decoration: none;
+  background-color: black;
+  font-size: 24px;
+  color: white;
+}
+.cart:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+body {
+  border: 5px solid black;
+}
