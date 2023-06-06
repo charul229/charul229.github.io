@@ -109,6 +109,7 @@ body {
   background-color: rgb(176, 241, 241);
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
+  align-self: start;
 }
 
 .address {
