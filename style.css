@@ -72,7 +72,8 @@ body {
   grid-row: 1/2;
   background-color: rgb(241, 167, 167);
   padding: 10px 0 10px 30px;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 /* .container-3 {
