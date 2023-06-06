@@ -6,7 +6,7 @@ body {
   margin-right: 200px;
 }
 
-.space {
+.space-1 {
   /* width: auto; */
   height: 60px;
   background-color: rgb(243, 235, 235);
@@ -16,7 +16,7 @@ body {
 .container-1 {
   display: grid;
   grid-template-columns: 1fr 100px 100px 100px;
-  grid-template-rows: 1;
+  grid-template-rows: 20px 10px;
   /* width: auto;
   margin: 0 0;
   background: white; */
@@ -36,6 +36,16 @@ body {
   grid-column: 4/-1;
   grid-row: 1/2;
   justify-self: center;
+}
+.space-2 {
+  /* width: auto;  */
+
+  grid-column: 1/-1;
+  grid-row: 2/-1;
+  height: 5px;
+  background-color: rgb(118, 150, 238);
+  align-self: center;
+  /* margin: 2px 2px;  */
 }
 
 /* .container-name {
@@ -118,7 +128,12 @@ body {
 }
 
 footer {
+  grid-column: 1/-1;
   align-self: end;
+  justify-self: center;
+  font-size: 14px;
+  /* background-color: black;
+  color: white; */
 }
 /* .container {
   width: auto;
