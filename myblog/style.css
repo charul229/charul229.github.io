@@ -14,9 +14,9 @@ body {
 }
 
 .container-1 {
-  display: grid;
-  grid-template-columns: 1fr 100px 100px 100px;
-  grid-template-rows: 1;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 100px 100px 100px;
+  grid-template-rows: 1; */
   /* width: auto;
   margin: 0 0;
   background: white; */
