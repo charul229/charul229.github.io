@@ -13,13 +13,18 @@ body {
   /* margin: 0 0; */
 }
 
+a {
+  display: block;
+  margin: 10px 10px;
+}
+
 /* .container-1 {
   display: grid;
   grid-template-columns: 1fr 100px 100px 100px;
   grid-template-rows: 1;
 
 }
-
+/*
 .home {
   grid-column: 2/3;
   grid-row: 1/2;
