@@ -15,15 +15,28 @@ body {
 
 .container-1 {
   text-align: justify;
-  /* display: grid; */
-  /* grid-template-columns: 1fr 100px 100px 100px;
-  grid-template-rows: 1; */
+  /* width: 600px; */
+  font-size: 18px;
+  font-family: serif;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  /*grid-template-rows: 1; */
   /* width: auto;
   margin: 0 0;
   background: white; */
 }
 
-.home {
+.links {
+  grid-column: 2/-1;
+  grid-row: 1/-1;
+  justify-self: center;
+}
+
+.article {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+/* .home {
   grid-column: 2/3;
   grid-row: 1/2;
   justify-self: center;
@@ -37,7 +50,7 @@ body {
   grid-column: 4/-1;
   grid-row: 1/2;
   justify-self: center;
-}
+} */
 
 /* .container-name {
   display: grid;
@@ -54,28 +67,33 @@ body {
 } */
 
 .container-2 {
-  display: grid;
-  grid-template-columns: 350px 1fr;
-  grid-template-rows: 80px 80px 150px 1fr;
+  /* display: block; */
+  /* grid-template-columns: 350px 1fr;
+  grid-template-rows: 80px 80px 150px 1fr; */
   /* float: left;
   width: 50px;
   padding: 30px 0 0 40px;
-  height: 20px;
-  text-align: right; */
+  height: 20px;*/
+  text-align: left;
 
   /* padding: 0px 400px 6px 0px;
   font-size: 20px;
   margin: 50px 50px; */
 }
 
-.name {
+a {
+  display: block;
+  margin: 10px;
+}
+
+/* .name {
   grid-column: 2/-1;
   grid-row: 1/2;
   background-color: rgb(241, 167, 167);
   padding: 10px 0 10px 30px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-}
+} */
 
 /* .container-3 {
   display: grid;
@@ -86,18 +104,18 @@ body {
     background: white; 
 } */
 
-.img {
+/* .img {
   grid-column: 1/2;
   grid-row: 1/4;
   justify-self: start;
   padding: 0px 0px 0px 40px;
-  /* width: 100px;
+} */
+/* width: 100px;
   margin: 0 0;
   padding: 0 0 0 0; */
-  /* border-radius: 70%; */
-}
+/* border-radius: 70%; */
 
-.title {
+/* .title {
   grid-column: 2/-1;
   grid-row: 2/3;
 }
@@ -105,17 +123,16 @@ body {
 .intro {
   grid-column: 2/-1;
   grid-row: 3/-1;
-  /* width: 650px; */
   text-align: justify;
   background-color: rgb(176, 241, 241);
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
-}
+} */
 
-.address {
+/* .address {
   grid-column: 1/2;
   grid-row: 4/-1;
-}
+} */
 
 footer {
   align-self: end;
