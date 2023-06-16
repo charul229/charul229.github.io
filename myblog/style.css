@@ -31,12 +31,17 @@ body {
   grid-column: 2/-1;
   grid-row: 1/-1;
   justify-self: center;
+}
+
+a:link {
   text-decoration: none;
   cursor: pointer;
+  padding: 0px 0px;
 }
-.links:hover,
-.links:active {
-  background-color: lightskyblue;
+
+a:hover,
+a:active {
+  background-color: rgb(210, 233, 247);
 }
 
 .article {
