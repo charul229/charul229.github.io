@@ -162,12 +162,11 @@ aside {
   margin: 0px 0px;
   border: 2px solid black;
   background-color: rgb(215, 245, 245);
-}
+}*/
 
-.home1,
 p {
   text-align: justify;
   margin: 10px 10px;
-  /* font-family: "Margarine"; 
+  font-family: "Margarine";
   font-family: "serif";
-} */
+}
