@@ -23,6 +23,11 @@ h2 {
   text-align: center;
 }
 
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
 /* .container-1 {
   display: grid;
   grid-template-columns: 1fr 100px 100px 100px;
