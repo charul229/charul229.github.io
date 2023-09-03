@@ -35,6 +35,29 @@
         >Tools in Scientific computing
       </a>
 
+      <pre>
+        <code>
+    # Convertor GUI
+
+    import PySimpleGUI as sg
+
+    label1 = sg.Text("Enter feet:")
+    input_box1 = sg.InputText()
+
+    label2 = sg.Text("Enter inches:")
+    input_box2 = sg.InputText()
+
+    convert_button = sg.Button("Convert")
+
+
+    window = sg.Window("Convertor", layout=[[label1,input_box1],[label2,input_box2],[convert_button]])
+
+    window.read()
+
+    window.close()
+        </code>
+      </pre>
+
       <!-- <a
         href="https://drive.google.com/file/d/1k8PAaMWmDgI4NcMt4Qmbq3JY8oRPtgkY/view?usp=drive_link"
         >Acoustics</a

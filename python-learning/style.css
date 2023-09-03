@@ -18,6 +18,10 @@ a {
   margin: 10px 10px;
 }
 
+pre {
+  background-color: black;
+  color: white;
+}
 /* .container-1 {
   display: grid;
   grid-template-columns: 1fr 100px 100px 100px;
