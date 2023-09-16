@@ -47,6 +47,12 @@ a:hover {
   color: brown;
 }
 
+.in-line {
+  display: inline-block;
+  padding: 0px;
+  background-color: transparent;
+}
+
 /* .container-1 {
   display: grid;
   grid-template-columns: 1fr 100px 100px 100px;
