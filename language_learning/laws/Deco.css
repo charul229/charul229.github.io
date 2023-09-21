@@ -1,0 +1,47 @@
+body {
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  grid-template-rows: 70px 50px 1fr;
+}
+
+ol {
+  line-height: 1.5;
+}
+
+h2 {
+  background-color: rgb(228, 205, 250);
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+
+.Phrasal {
+  text-align: center;
+  /* list-style-position: inside;
+  width: 350px;
+  height: 120px;
+  box-sizing: border-box; */
+}
+
+.highlight {
+  background-color: rgb(176, 228, 176);
+}
+
+.Vocab-title {
+  text-align: center;
+  /* width: 350px;
+  height: 40px; */
+  box-sizing: border-box;
+}
+
+.Vocab {
+  /* width: 350px;
+  height: 120px; */
+  box-sizing: border-box;
+  text-align: left;
+}
