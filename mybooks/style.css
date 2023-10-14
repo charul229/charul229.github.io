@@ -2,20 +2,33 @@ body {
   background-color: white;
   /* margin: 0 200px; */
   padding: 20px 20px 20px 20px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-
 .space {
   /* width: auto; */
-  height: 60px;
   background-color: rgb(243, 235, 235);
+  text-align: center;
+  font-size: 36px;
+  padding: 10px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 10px;
+
   /* margin: 0 0; */
 }
 
 a {
   display: block;
-  margin: 10px 10px;
+  text-decoration: none;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(234, 234, 247);
+  color: rgb(42, 42, 252);
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: rgb(207, 243, 207);
 }
 
 /* .container-1 {
@@ -122,6 +135,20 @@ a {
 footer {
   align-self: end;
 }
+
+p {
+  text-align: justify;
+  margin: 10px 10px;
+  font-family: "Margarine";
+  font-family: "serif";
+  font-size: 18px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 350px 350px 1fr;
+}
+
 /* .container {
   width: auto;
   margin: 0 0;
