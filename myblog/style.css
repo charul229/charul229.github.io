@@ -52,10 +52,10 @@ a:active {
 .start {
   transform: translate(0, -25%);
 }
-/* .article {
+.article {
   grid-column: 1/2;
   grid-row: 1/-1;
-} */
+}
 
 .blue {
   color: blueviolet;
