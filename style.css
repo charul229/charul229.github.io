@@ -19,6 +19,19 @@ body {
   font-size: 28px;
 }
 
+.space-contact {
+  /* width: auto; */
+  height: 300px;
+  /* background-color: rgb(243, 235, 235); */
+  background-color: rgb(240, 236, 236);
+  /* margin: 0 0; */
+  text-align: center;
+  padding: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 10px;
+  font-size: 28px;
+}
+
 .container-1 {
   display: grid;
   grid-template-columns: 1fr 100px 100px 100px;
@@ -137,6 +150,10 @@ body {
 .address {
   grid-column: 1/2;
   grid-row: 4/-1;
+}
+
+.img_cover {
+  object-fit: fill;
 }
 
 footer {
