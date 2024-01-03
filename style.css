@@ -34,7 +34,7 @@ body {
 
 .container-1 {
   display: grid;
-  grid-template-columns: 1fr 100px 100px 100px;
+  grid-template-columns: 1fr 100px 100px 100px 100px;
   grid-template-rows: 20px 10px;
   /* width: auto;
   margin: 0 0;
@@ -52,11 +52,17 @@ body {
   grid-row: 1/2;
   justify-self: center;
 }
-.contact {
-  grid-column: 4/-1;
+.Notes {
+  grid-column: 4/5;
   grid-row: 1/2;
   justify-self: center;
 }
+.contact {
+  grid-column: 5/-1;
+  grid-row: 1/2;
+  justify-self: center;
+}
+
 .space-2 {
   /* width: auto;  */
 
