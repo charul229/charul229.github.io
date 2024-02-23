@@ -34,7 +34,7 @@ body {
 
 .container-1 {
   display: grid;
-  grid-template-columns: 1fr 100px 100px 100px 100px;
+  grid-template-columns: 1fr 100px 100px 100px 100px 100px;
   grid-template-rows: 20px 10px;
   /* width: auto;
   margin: 0 0;
@@ -46,21 +46,36 @@ body {
   grid-column: 2/3;
   grid-row: 1/2;
   justify-self: center;
+  padding: 0px;
+  margin: 0px;
 }
-.about {
+.work {
   grid-column: 3/4;
   grid-row: 1/2;
   justify-self: center;
+  padding: 0px;
+  margin: 0px;
 }
-.Notes {
+.about {
   grid-column: 4/5;
   grid-row: 1/2;
   justify-self: center;
+  padding: 0px;
+  margin: 0px;
 }
-.contact {
-  grid-column: 5/-1;
+.Notes {
+  grid-column: 5/6;
   grid-row: 1/2;
   justify-self: center;
+  padding: 0px;
+  margin: 0px;
+}
+.contact {
+  grid-column: 6/-1;
+  grid-row: 1/2;
+  justify-self: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 .space-2 {
