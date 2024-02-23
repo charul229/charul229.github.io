@@ -70,7 +70,7 @@ body {
   padding: 0px;
   margin: 0px;
 }
-.Contact {
+.contact {
   grid-column: 6/-1;
   grid-row: 1/2;
   justify-self: center;
