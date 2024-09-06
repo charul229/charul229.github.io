@@ -10,6 +10,7 @@ body {
   /* width: auto; */
   height: 60px;
   background-color: rgb(243, 235, 235);
+  justify-self: center;
   /* margin: 0 0; */
 }
 
