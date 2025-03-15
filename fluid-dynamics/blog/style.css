@@ -2,33 +2,61 @@ body {
   background-color: white;
   /* margin: 0 200px; */
   padding: 20px 20px 20px 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+
 .space {
   /* width: auto; */
   background-color: rgb(243, 235, 235);
+  font-size: 32px;
   text-align: center;
-  font-size: 36px;
-  padding: 10px 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* margin: 0 0; */
+}
 
+.block {
+  /* width: auto; */
+  /* background-color: rgb(243, 235, 235); */
+  font-size: 24px;
+  text-align: left;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   /* margin: 0 0; */
 }
 
 a {
   display: block;
-  text-decoration: none;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  background-color: rgb(234, 234, 247);
-  color: rgb(42, 42, 252);
-  border-radius: 5px;
+  margin: 10px 10px;
 }
 
-a:hover {
-  background-color: rgb(207, 243, 207);
+.container-1 {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.custom-line {
+  border: none;
+  height: 3px;
+  background-color: black; /* Change color */
+  width: 80%; /* Set width */
+  margin: 20px auto; /* Center it */
+}
+
+.vertical-line {
+  width: 3px; /* Thickness */
+  height: 100px; /* Length */
+  background-color: black;
+  position: absolute;
+  left: 50%; /* Center it horizontally */
+  top: 50px;
 }
 
 /* .container-1 {
@@ -135,32 +163,6 @@ a:hover {
 footer {
   align-self: end;
 }
-
-p {
-  text-align: justify;
-  margin: 10px 10px;
-  font-family: "Margarine";
-  font-family: "serif";
-  font-size: 18px;
-}
-
-.links {
-  display: grid;
-  grid-template-columns: 350px 350px 1fr;
-}
-
-.codes {
-  display: grid;
-  grid-template-columns: 1fr 350px;
-  font-family: "serif";
-  font-size: 18px;
-  border-style: solid;
-  border-radius: 10px;
-  border-color: rgb(245, 124, 105);
-  padding: 10px 10px 10px 10px;
-  margin-top: 30px;
-}
-
 /* .container {
   width: auto;
   margin: 0 0;
