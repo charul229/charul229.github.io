@@ -1,4 +1,9 @@
 body {
+  background-image: url("flight_vortices.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   background-color: white;
   /* margin: 0 200px; */
   padding: 20px 20px 20px 20px;
@@ -16,6 +21,12 @@ body {
   border-radius: 10px;
 
   /* margin: 0 0; */
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  grid-template-rows: 1;
 }
 
 #motion {
@@ -209,5 +220,6 @@ p {
 
 .links {
   display: grid;
-  grid-template-columns: 350px 350px 1fr;
+  grid-template-columns: 400px 400px 1fr;
+  font-size: large;
 }
