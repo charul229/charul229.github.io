@@ -27,7 +27,7 @@ body {
 .box {
   background-color: rgb(232, 239, 248);
   /* margin: 0 200px; */
-  padding: 20px 20px 20px 20px;
+  padding: 1px 20px 20px 20px;
   /* margin-left: 100px;
   margin-right: 100px; */
 }
@@ -56,6 +56,26 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 10px;
   font-size: 28px;
+}
+
+.quote {
+  /* font-family: "Georgia", serif; */
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  /* font-weight: bold; */
+  /* color: #4a90e2; */
+  color: rgb(93, 106, 224);
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+  letter-spacing: 1px;
+  /* margin-top: 100px; */
+  text-align: center;
+  /* margin: 20px 20px; */
+  background-color: rgb(255, 255, 255);
+  /* width: 600px; */
+  border-radius: 10px;
+  /* padding-right: 20px; */
 }
 
 .container-1 {
