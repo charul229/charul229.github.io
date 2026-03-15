@@ -272,6 +272,8 @@ body {
   /* width: 400px; */
   /* margin: 10px 10px; */
   /* border-radius: 70%; */
+  max-width: 100%;
+  height: auto;
 }
 
 .title {
