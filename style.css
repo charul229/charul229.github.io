@@ -11,7 +11,10 @@ body {
 
 .my-name {
   font-family: "Georgia", serif;
-  font-size: 48px;
+  font-size: 2.5rem;
+  /* font-size: 48px; */
+  /* font-size: clamp(36px, 1.5vw, 48px);
+  line-height: 1.6; */
   /* font-weight: bold; */
   /* color: #4a90e2; */
   color: rgb(192, 61, 61);
@@ -45,7 +48,8 @@ body {
   padding: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 10px;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 2rem;
 }
 
 .space-contact {
@@ -58,7 +62,8 @@ body {
   padding: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 10px;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 2rem;
 }
 
 .quote {
@@ -66,7 +71,8 @@ body {
   font-family: "Kalam", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 0.9rem;
   /* font-weight: bold; */
   /* color: #4a90e2; */
   color: rgb(93, 106, 224);
@@ -89,7 +95,8 @@ body {
   /* width: auto;
   margin: 0 0;
   background: white; */
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1rem;
 }
 
 .home {
@@ -97,7 +104,8 @@ body {
   font-weight: 400;
   font-style: normal;
   /* font-family: Georgia, serif; */
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 2rem;
   grid-column: 2/3;
   grid-row: 1/2;
   justify-self: center;
@@ -109,7 +117,8 @@ body {
   font-family: "Kalam", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 2rem;
   grid-column: 3/4;
   grid-row: 1/2;
   justify-self: center;
@@ -141,7 +150,8 @@ body {
   grid-row: 1/2;
   border-radius: 10px;
   align-self: start;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1rem;
   line-height: 1.4;
 }
 
@@ -169,7 +179,8 @@ body {
   grid-row: 1/2;
   border-radius: 10px;
   align-self: start;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1rem;
   line-height: 1.4;
 }
 
@@ -291,13 +302,15 @@ body {
   /* padding: 10px 10px 10px 10px; */
   border-radius: 10px;
   align-self: start;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1rem;
   line-height: 1.4;
 }
 
 .paper-listing {
   line-height: 1.8;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1rem;
 }
 
 .address {
@@ -317,7 +330,8 @@ footer {
   grid-column: 1/-1;
   align-self: end;
   justify-self: center;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.9rem;
   /* background-color: black;
   color: white; */
 }
