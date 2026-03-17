@@ -314,3 +314,12 @@ footer {
   /* background-color: black;
   color: white; */
 }
+
+/* ################### Changed############################################## */
+.my-name {
+  background: none;
+  color: var(--text-main);
+  text-align: left;
+  border: none;
+  box-shadow: none;
+}
