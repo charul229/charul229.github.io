@@ -571,3 +571,21 @@ hr {
   height: 2px;
   background: linear-gradient(to right, transparent, #2563eb, transparent);
 }
+
+.arxiv-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid maroon; */
+  border-radius: 5px;
+  padding: 3px 5px;
+  line-height: 0;
+  transition:
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.arxiv-link:hover {
+  box-shadow: 0 0 8px rgba(128, 0, 0, 0.45);
+  background-color: rgba(128, 0, 0, 0.05);
+}
