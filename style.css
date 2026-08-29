@@ -784,3 +784,107 @@ hr {
   color: #64748b;
   margin-bottom: 5px;
 }
+
+/* =========================================================
+   HOW I APPROACH PROBLEMS
+   ========================================================= */
+
+.research-approach {
+  margin: 55px 20px;
+}
+
+.research-approach h2 {
+  font-family: Georgia, serif;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.approach-intro {
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.approach-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+.approach-step {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  height: 100%;
+}
+
+.approach-number {
+  font-size: 0.75rem;
+  color: #2563eb;
+  letter-spacing: 1px;
+}
+
+.approach-step h3 {
+  font-family: Georgia, serif;
+  margin: 8px 0;
+}
+
+.approach-step p {
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.approach-arrow {
+  font-size: 1.5rem;
+  color: #94a3b8;
+}
+
+/* =========================================================
+   QUESTIONS THAT DRIVE MY RESEARCH
+   ========================================================= */
+
+.research-questions {
+  margin: 55px 20px;
+}
+
+.research-questions h2 {
+  font-family: Georgia, serif;
+  font-size: 1.7rem;
+  margin-bottom: 25px;
+}
+
+.question-list {
+  border-top: 1px solid #cbd5e1;
+}
+
+.research-question {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 20px;
+
+  padding: 22px 10px;
+
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.research-question > span {
+  font-size: 0.8rem;
+  color: #2563eb;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+.research-question h3 {
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.research-question p {
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
